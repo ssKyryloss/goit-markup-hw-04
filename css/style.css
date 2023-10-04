@@ -289,6 +289,7 @@ address {
 
 .team-item-container-item{
     display: flex;
+    align-items: center;
     justify-content: center;
     width: 40px;
     height: 40px;
@@ -394,11 +395,11 @@ address {
 
 .text-icon {
     color: var(--WHITE, #FFF);
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
 
 .list-icon {

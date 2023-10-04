@@ -360,6 +360,9 @@ address {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -385,4 +388,36 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+
+.footer-icon {}
+
+.text-icon {
+    color: var(--WHITE, #FFF);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+}
+
+.list-icon {
+    display: flex;
+    gap: 16px;
+}
+
+.item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+
+}
+
+.item-icon:hover,
+.item-icon:focus {
+    background-color: #31D0AA;
 }

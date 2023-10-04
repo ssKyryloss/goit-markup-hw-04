@@ -126,13 +126,14 @@ address {
 .main {}
 
 .hero {
+    max-width: 1440px;
     background-color: #2e2f42;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bgr.jpg);
-    min-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
-    block-size: cover;
+    background-size: cover;
+    margin: auto;
 }
 
 .hero-title {
@@ -250,6 +251,7 @@ address {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-item-img {}
@@ -275,6 +277,28 @@ address {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+
+
+.team-icons-container-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.team-item-container-item{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+}
+
+.team-item-container-item:hover,
+.team-item-container-item:focus {
+    background-color: #404bbf;
 }
 
 .team-item {}

@@ -391,6 +391,10 @@ address {
     padding: 100px 0;
 }
 
+.footer-container-logo {
+    margin-right: 120px;
+}
+
 .footer-logo {
     color: var(--IRIS, #4D5AE5);
     font-family: 'Raleway';
@@ -414,4 +418,50 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
+
+.contacts-container {}
+
+.contacts-text {
+    color: var(--WHITE, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 16px;
+}
+
+.contacts-item {
+    width: 40px;
+    height: 40px;
+}
+
+.contacts-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    background-color: #31d0aa;
+}
+
+.contacts-icon {
+    fill: #f4f4fd;
 }

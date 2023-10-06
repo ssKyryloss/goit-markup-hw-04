@@ -295,30 +295,13 @@ address {
     letter-spacing: 0.02em;
 }
 
+.team-container-icon {}
 
+.team-list-icon {}
 
-.team-icons-container-list {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
+.team-link-icon {}
 
-.team-item-container-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background-color: #4d5ae5;
-    border-radius: 50%;
-}
-
-.team-item-container-item:hover,
-.team-item-container-item:focus {
-    background-color: #404bbf;
-}
-
-.team-item {}
+.team-item-icon {}
 
 .portfolio {
     padding-top: 120px;
@@ -431,38 +414,3 @@ address {
     max-width: 264px;
 }
 
-.footer-icon {}
-.text-icon {
-    color: var(--WHITE, #FFF);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    margin-bottom: 16px;
-}
-
-.list-icon {
-    display: flex;
-    gap: 16px;
-}
-
-.item-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #4D5AE5;
-
-}
-
-.item-icon:hover,
-.item-icon:focus {
-    background-color: #31D0AA;
-}
-
-.linc-icon {
-    background-color: #4d5ae5;
-    border-radius: 50%;
-}
